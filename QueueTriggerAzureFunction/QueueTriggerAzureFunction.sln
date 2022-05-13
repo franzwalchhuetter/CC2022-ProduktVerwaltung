@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueTriggerAzureFunction", "QueueTriggerAzureFunction\QueueTriggerAzureFunction.csproj", "{83BD477E-07D5-4718-A197-2F360C746AAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83BD477E-07D5-4718-A197-2F360C746AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83BD477E-07D5-4718-A197-2F360C746AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83BD477E-07D5-4718-A197-2F360C746AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83BD477E-07D5-4718-A197-2F360C746AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EC42840-BE44-493E-B745-ED652F888F41}
+	EndGlobalSection
+EndGlobal

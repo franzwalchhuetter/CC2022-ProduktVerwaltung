@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProduktVerwaltung", "ProduktVerwaltung\ProduktVerwaltung.csproj", "{D43D626A-0336-4421-8B1E-85C537DCE1E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueTriggerAzureFunction", "..\QueueTriggerAzureFunction\QueueTriggerAzureFunction\QueueTriggerAzureFunction.csproj", "{7556ECF9-C064-4A42-A5DB-4281C74B554E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D43D626A-0336-4421-8B1E-85C537DCE1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43D626A-0336-4421-8B1E-85C537DCE1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43D626A-0336-4421-8B1E-85C537DCE1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43D626A-0336-4421-8B1E-85C537DCE1E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7556ECF9-C064-4A42-A5DB-4281C74B554E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7556ECF9-C064-4A42-A5DB-4281C74B554E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7556ECF9-C064-4A42-A5DB-4281C74B554E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7556ECF9-C064-4A42-A5DB-4281C74B554E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DDB7793-581C-4D44-BF7F-BCFECBC26B18}
+	EndGlobalSection
+EndGlobal
