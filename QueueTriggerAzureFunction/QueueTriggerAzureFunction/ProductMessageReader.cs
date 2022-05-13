@@ -18,7 +18,7 @@ namespace QueueTriggerAzureFunction
     {
         [FunctionName("QueueTrigger")]
         [return: Table("MyMessageEntry")]
-        public static MyMessageEntry Run([QueueTrigger("produkte", Connection = "AzureWebJobsStorage")] string myQueueItem, ILogger log)
+        public static MyMessageEntry Run([QueueTrigger("queue-produkt-verwaltung", Connection = "AzureWebJobsStorage")] string myQueueItem, ILogger log)
         {
             myQueueItem = myQueueItem.Trim(new char[] { '"' });
 
