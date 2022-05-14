@@ -106,8 +106,8 @@ namespace ProduktVerwaltung.Controllers
             Bitmap img = new(1, 1);
             Graphics drawing = Graphics.FromImage(img);
 
-            // The font for our text
-            Font f = new Font("Arial", 14);
+            // Set font for our text
+            Font f = new Font("Arial", 16);
 
             // work out how big the text will be when drawn as an image
             SizeF size = drawing.MeasureString(productItem.Name, f);
